@@ -1,0 +1,208 @@
+/**
+ * Created by R-Jay Carl Torres on 4/29/2017.
+ */
+
+/**
+ * Adjust the brightness
+ */
+
+img.brightness {
+    -webkit-filter: brightness(3);
+    filter: brightness(3);
+}
+
+/**
+ * Adjust the contrast
+ */
+img.contrast {
+    -webkit-filter: contrast(4);
+    filter: contrast(4);
+}
+
+/**
+ * Convert to grayscale
+ */
+img.grayscale {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+/**
+ * Convert to sepia
+ */
+img.sepia {
+    -webkit-filter: sepia(1);
+    filter: sepia(1);
+}
+
+/**
+ * invert image
+ */
+img.invert {
+    -webkit-filter: invert(.8);
+    filter: invert(.8);
+}
+
+/**
+ * saturate image
+ */
+img.saturate {
+    -webkit-filter: saturate(8);
+    filter: saturate(8);
+}
+
+/**
+ * rotate the hue of an image
+ */
+img.rotate-hue {
+    -webkit-filter: hue-rotate(90deg);
+    filter: hue-rotate(90deg);
+}
+
+/**
+ * Blur the selector
+ */
+.blur{
+    color: transparent;
+    text-shadow: 0 0 5px rgba(131,246,228,0.8);
+}
+
+/**
+ * Assign dropcaps to the paragraph for which the effect is to be applied
+ */
+p.dropcaps:first-child:first-letter {
+    float: left;
+    color: #1abc9c;
+    font-size: 80px;
+    line-height: 40px;
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+/**
+ * reverse text
+ */
+.reverseText {
+    /* Chrome, Safari */
+    -webkit-transform: rotateY(180deg);
+
+    /* Firefox */
+    -moz-transform: rotateY(180deg);
+
+    /* Opera */
+    -o-transform: rotateY(180deg);
+
+    /* Internet Explorer */
+    -ms-transform: rotateY(180deg);
+}
+
+/**
+ * Create a box shadow
+ */
+.boxShadow {
+    /*Chrome, Safari*/
+    -webkit-box-shadow: 6px 6px 12px 8px #ebebeb;
+    /*Firefox*/
+    -moz-box-shadow: 4px 4px 6px 7px #ebebeb;
+    /*Standard Syntax*/
+    box-shadow: 6px 6px 14px 6px #ebebeb;
+}
+
+/**
+ * Create inset text shadow
+ */
+.textShadow {
+    font: bold 60px arial, sans-serif;
+    background-color: #565656;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+    /*Chrome, Safari*/
+    -webkit-background-clip: text;
+    /*Firefox*/
+    -moz-background-clip: text;
+    /*Standard Syntax*/
+    background-clip: text;
+}
+
+/**
+ * inner box shadow
+ */
+button {
+    /* Chrome, Safari */
+    -webkit-box-shadow: inset 5px 5px 15px #1abc9c;
+
+    /* Firefox */
+    -moz-box-shadow: inset 5px 5px 15px #1abc9c;
+
+    /* Standard syntax */
+    box-shadow: inset 5px 5px 15px #1abc9c;
+}
+
+/**
+ * outer box shadow
+ */
+button {
+    /* Chrome, Safari */
+    -webkit-box-shadow: 5px 5px 15px #1abc9c;
+
+    /* Firefox */
+    -moz-box-shadow: 5px 5px 15px #1abc9c;
+
+    /* Standard syntax */
+    box-shadow: 5px 5px 15px #1abc9c;
+}
+
+/**
+ * Add this as a property for a selector to which the effect has to be applied
+ */
+button {
+    /* For Mozilla*/
+    -moz-border-radius-topleft:40px;
+    -moz-border-radius-topright:40px;
+    -moz-border-radius-bottomright:40px;
+    -moz-border-radius-bottomleft:40px;
+
+    /*For Webkit*/
+    -webkit-border-top-left-radius:40px;
+    -webkit-border-top-right-radius:40px;
+    -webkit-border-bottom-right-radius:40px;
+    -webkit-border-bottom-left-radius:40px;
+}
+
+/**
+ * Cross browser opacity
+ */
+.opacity {
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+
+/**
+ * rotate an element
+ */
+.rotate {
+    /* Chrome, Safari */
+    -webkit-transform: rotateX(23deg) rotateY(12deg) rotateZ(30deg);
+    /* Firefox */
+    -moz-transform: rotateX(23deg) rotateY(12deg) rotateZ(30deg);
+    /* Opera */
+    -o-transform: rotateX(23deg) rotateY(12deg) rotateZ(30deg);
+    /* Internet Explorer */
+    -ms-transform: rotateX(23deg) rotateY(12deg) rotateZ(30deg);
+    /* Standard Syntax */
+    transform: rotateX(23deg) rotateY(12deg) rotateZ(30deg);
+}
+
+/**
+ * wordwrap text
+ */
+.wordWrap {
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
